@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Virtal_Kyboard</name>
+    </assembly>
+    <members>
+        <member name="T:Virtal_Kyboard.ViewModels.KeyViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Virtal_Kyboard.ViewModels.KeyViewModel.pressKeyCommand">
+            <summary>The backing field for <see cref="P:Virtal_Kyboard.ViewModels.KeyViewModel.PressKeyCommand"/>.</summary>
+        </member>
+        <member name="P:Virtal_Kyboard.ViewModels.KeyViewModel.PressKeyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Virtal_Kyboard.ViewModels.KeyViewModel.PressKey"/>.</summary>
+        </member>
+    </members>
+</doc>

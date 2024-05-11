@@ -1,0 +1,464 @@
+﻿{
+  "Id": 1,
+  "Brend": "DIERYA",
+  "Model": "DK61SE",
+  "Rows": [
+    {
+      "Keys": [
+        {
+          "Letter": "`",
+          "IsSpecial": false,
+          "Position": 0,
+          "Length": 1,
+          "Id": 1
+        },
+        {
+          "Letter": "1",
+          "IsSpecial": false,
+          "Position": 1,
+          "Length": 1,
+          "Id": 2
+        },
+        {
+          "Letter": "2",
+          "IsSpecial": false,
+          "Position": 2,
+          "Length": 1,
+          "Id": 3
+        },
+        {
+          "Letter": "3",
+          "IsSpecial": false,
+          "Position": 3,
+          "Length": 1,
+          "Id": 4
+        },
+        {
+          "Letter": "4",
+          "IsSpecial": false,
+          "Position": 4,
+          "Length": 1,
+          "Id": 5
+        },
+        {
+          "Letter": "5",
+          "IsSpecial": false,
+          "Position": 5,
+          "Length": 1,
+          "Id": 6
+        },
+        {
+          "Letter": "6",
+          "IsSpecial": false,
+          "Position": 6,
+          "Length": 1,
+          "Id": 7
+        },
+        {
+          "Letter": "7",
+          "IsSpecial": false,
+          "Position": 7,
+          "Length": 1,
+          "Id": 8
+        },
+        {
+          "Letter": "8",
+          "IsSpecial": false,
+          "Position": 8,
+          "Length": 1,
+          "Id": 9
+        },
+        {
+          "Letter": "9",
+          "IsSpecial": false,
+          "Position": 9,
+          "Length": 1,
+          "Id": 10
+        },
+        {
+          "Letter": "0",
+          "IsSpecial": false,
+          "Position": 10,
+          "Length": 1,
+          "Id": 11
+        },
+        {
+          "Letter": "-",
+          "IsSpecial": false,
+          "Position": 11,
+          "Length": 1,
+          "Id": 12
+        },
+        {
+          "Letter": "=",
+          "IsSpecial": false,
+          "Position": 12,
+          "Length": 1,
+          "Id": 13
+        },
+        {
+          "Letter": "Backspace",
+          "IsSpecial": true,
+          "Position": 13,
+          "Length": 2,
+          "Id": 14
+        }
+      ],
+      "Row": 1,
+      "Length": 15
+    },
+    {
+      "Keys": [
+        {
+          "Letter": "Tab",
+          "IsSpecial": true,
+          "Position": 0,
+          "Length": 1.5,
+          "Id": 15
+        },
+        {
+          "Letter": "Q",
+          "IsSpecial": false,
+          "Position": 1.5,
+          "Length": 1,
+          "Id": 16
+        },
+        {
+          "Letter": "W",
+          "IsSpecial": false,
+          "Position": 2.5,
+          "Length": 1,
+          "Id": 17
+        },
+        {
+          "Letter": "E",
+          "IsSpecial": false,
+          "Position": 3.5,
+          "Length": 1,
+          "Id": 18
+        },
+        {
+          "Letter": "R",
+          "IsSpecial": false,
+          "Position": 4.5,
+          "Length": 1,
+          "Id": 19
+        },
+        {
+          "Letter": "T",
+          "IsSpecial": false,
+          "Position": 5.5,
+          "Length": 1,
+          "Id": 20
+        },
+        {
+          "Letter": "Y",
+          "IsSpecial": false,
+          "Position": 6.5,
+          "Length": 1,
+          "Id": 21
+        },
+        {
+          "Letter": "U",
+          "IsSpecial": false,
+          "Position": 7.5,
+          "Length": 1,
+          "Id": 22
+        },
+        {
+          "Letter": "I",
+          "IsSpecial": false,
+          "Position": 8.5,
+          "Length": 1,
+          "Id": 23
+        },
+        {
+          "Letter": "O",
+          "IsSpecial": false,
+          "Position": 9.5,
+          "Length": 1,
+          "Id": 24
+        },
+        {
+          "Letter": "P",
+          "IsSpecial": false,
+          "Position": 10.5,
+          "Length": 1,
+          "Id": 25
+        },
+        {
+          "Letter": "[",
+          "IsSpecial": false,
+          "Position": 11.5,
+          "Length": 1,
+          "Id": 26
+        },
+        {
+          "Letter": "]",
+          "IsSpecial": false,
+          "Position": 12.5,
+          "Length": 1,
+          "Id": 27
+        },
+        {
+          "Letter": "\\",
+          "IsSpecial": false,
+          "Position": 13.5,
+          "Length": 1.5,
+          "Id": 28
+        }
+      ],
+      "Row": 2,
+      "Length": 15
+    },
+    {
+      "Keys": [
+        {
+          "Letter": "Caps Lock",
+          "IsSpecial": true,
+          "Position": 0,
+          "Length": 1.75,
+          "Id": 29
+        },
+        {
+          "Letter": "A",
+          "IsSpecial": false,
+          "Position": 1.75,
+          "Length": 1,
+          "Id": 30
+        },
+        {
+          "Letter": "S",
+          "IsSpecial": false,
+          "Position": 2.75,
+          "Length": 1,
+          "Id": 31
+        },
+        {
+          "Letter": "D",
+          "IsSpecial": false,
+          "Position": 3.75,
+          "Length": 1,
+          "Id": 32
+        },
+        {
+          "Letter": "F",
+          "IsSpecial": false,
+          "Position": 4.75,
+          "Length": 1,
+          "Id": 33
+        },
+        {
+          "Letter": "G",
+          "IsSpecial": false,
+          "Position": 5.75,
+          "Length": 1,
+          "Id": 34
+        },
+        {
+          "Letter": "H",
+          "IsSpecial": false,
+          "Position": 6.75,
+          "Length": 1,
+          "Id": 35
+        },
+        {
+          "Letter": "J",
+          "IsSpecial": false,
+          "Position": 7.75,
+          "Length": 1,
+          "Id": 36
+        },
+        {
+          "Letter": "K",
+          "IsSpecial": false,
+          "Position": 8.75,
+          "Length": 1,
+          "Id": 37
+        },
+        {
+          "Letter": "L",
+          "IsSpecial": false,
+          "Position": 9.75,
+          "Length": 1,
+          "Id": 38
+        },
+        {
+          "Letter": ";",
+          "IsSpecial": false,
+          "Position": 10.75,
+          "Length": 1,
+          "Id": 39
+        },
+        {
+          "Letter": "'",
+          "IsSpecial": false,
+          "Position": 11.75,
+          "Length": 1,
+          "Id": 40
+        },
+        {
+          "Letter": "Enter",
+          "IsSpecial": true,
+          "Position": 12.75,
+          "Length": 2.25,
+          "Id": 41
+        }
+      ],
+      "Row": 3,
+      "Length": 15
+    },
+    {
+      "Keys": [
+        {
+          "Letter": "Shift",
+          "IsSpecial": true,
+          "Position": 0,
+          "Length": 2.25,
+          "Id": 42
+        },
+        {
+          "Letter": "Z",
+          "IsSpecial": false,
+          "Position": 2.25,
+          "Length": 1,
+          "Id": 43
+        },
+        {
+          "Letter": "X",
+          "IsSpecial": false,
+          "Position": 3.25,
+          "Length": 1,
+          "Id": 44
+        },
+        {
+          "Letter": "C",
+          "IsSpecial": false,
+          "Position": 4.25,
+          "Length": 1,
+          "Id": 45
+        },
+        {
+          "Letter": "V",
+          "IsSpecial": false,
+          "Position": 5.25,
+          "Length": 1,
+          "Id": 46
+        },
+        {
+          "Letter": "B",
+          "IsSpecial": false,
+          "Position": 6.25,
+          "Length": 1,
+          "Id": 47
+        },
+        {
+          "Letter": "N",
+          "IsSpecial": false,
+          "Position": 7.25,
+          "Length": 1,
+          "Id": 48
+        },
+        {
+          "Letter": "M",
+          "IsSpecial": false,
+          "Position": 8.25,
+          "Length": 1,
+          "Id": 49
+        },
+        {
+          "Letter": ",",
+          "IsSpecial": false,
+          "Position": 9.25,
+          "Length": 1,
+          "Id": 50
+        },
+        {
+          "Letter": ".",
+          "IsSpecial": false,
+          "Position": 10.25,
+          "Length": 1,
+          "Id": 51
+        },
+        {
+          "Letter": "/",
+          "IsSpecial": false,
+          "Position": 11.25,
+          "Length": 1,
+          "Id": 52
+        },
+        {
+          "Letter": "Shift",
+          "IsSpecial": true,
+          "Position": 12.25,
+          "Length": 2.75,
+          "Id": 53
+        }
+      ],
+      "Row": 4,
+      "Length": 15
+    },
+    {
+      "Keys": [
+        {
+          "Letter": "Ctrl",
+          "IsSpecial": true,
+          "Position": 0,
+          "Length": 1.25,
+          "Id": 54
+        },
+        {
+          "Letter": "Meta",
+          "IsSpecial": true,
+          "Position": 1.25,
+          "Length": 1.25,
+          "Id": 55
+        },
+        {
+          "Letter": "Alt",
+          "IsSpecial": true,
+          "Position": 2.5,
+          "Length": 1.25,
+          "Id": 56
+        },
+        {
+          "Letter": "Space",
+          "IsSpecial": true,
+          "Position": 3.75,
+          "Length": 6.25,
+          "Id": 57
+        },
+        {
+          "Letter": "Alt",
+          "IsSpecial": true,
+          "Position": 10,
+          "Length": 1.25,
+          "Id": 58
+        },
+        {
+          "Letter": "Fn",
+          "IsSpecial": true,
+          "Position": 11.25,
+          "Length": 1.25,
+          "Id": 59
+        },
+        {
+          "Letter": "Menu",
+          "IsSpecial": true,
+          "Position": 12.5,
+          "Length": 1.25,
+          "Id": 60
+        },
+        {
+          "Letter": "Ctrl",
+          "IsSpecial": true,
+          "Position": 13.75,
+          "Length": 1.25,
+          "Id": 61
+        }
+      ],
+      "Row": 5,
+      "Length": 15
+    }
+  ]
+}
