@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VirtalKyboard</name>
+    </assembly>
+    <members>
+        <member name="T:VirtalKyboard.ViewModels.KeyboardViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyboardViewModel.RowViews">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.KeyboardViewModel.rowViews"/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyboardViewModel.NativeViewState">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.KeyboardViewModel.nativeViewState"/>
+        </member>
+        <member name="T:VirtalKyboard.ViewModels.KeyViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyViewModel.IsPressed">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.KeyViewModel._isPressed"/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyViewModel.Letter">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.KeyViewModel.letter"/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyViewModel.Lengt_Modifier">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.KeyViewModel.lengt_Modifier"/>
+        </member>
+        <member name="F:VirtalKyboard.ViewModels.KeyViewModel.pressKeyCommand">
+            <summary>The backing field for <see cref="P:VirtalKyboard.ViewModels.KeyViewModel.PressKeyCommand"/>.</summary>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.KeyViewModel.PressKeyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:VirtalKyboard.ViewModels.KeyViewModel.PressKey"/>.</summary>
+        </member>
+        <member name="T:VirtalKyboard.ViewModels.RowViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.RowViewModel.Keys">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.RowViewModel.keys"/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.RowViewModel.KeyViews">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.RowViewModel.keyViews"/>
+        </member>
+        <member name="P:VirtalKyboard.ViewModels.RowViewModel.RowView">
+            <inheritdoc cref="F:VirtalKyboard.ViewModels.RowViewModel.rowView"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RowViews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RowViews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NativeViewState">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NativeViewState" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPressed">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPressed" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Letter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Letter" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Lengt_Modifier">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Lengt_Modifier" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Keys">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Keys" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.KeyViews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "KeyViews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RowView">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RowView" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RowViews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RowViews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NativeViewState">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NativeViewState" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPressed">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPressed" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Letter">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Letter" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Lengt_Modifier">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Lengt_Modifier" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Keys">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Keys" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.KeyViews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "KeyViews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RowView">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RowView" generated properties.</summary>
+        </member>
+    </members>
+</doc>

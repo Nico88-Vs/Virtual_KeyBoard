@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VirtalKyboard.Views.KeyView"
+             xmlns:converters="clr-namespace:VirtalKyboard.Services.Converters"
+             xmlns:viewmodel="clr-namespace:VirtalKyboard.ViewModels"
+             x:DataType="viewmodel:KeyViewModel">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <converters:BooleanToScaleConverter x:Key="BooleanToScaleConverter"/>
+            <converters:BooleanToColorConverter x:Key="BooleanToColorConverter"/>
+        </ResourceDictionary>
+    </ContentView.Resources>
+    
+    <!-- XAML per un tasto della tastiera -->
+    <Button Text="{Binding Letter}"
+        FontSize="24"
+        BackgroundColor="{Binding IsPressed, Converter={StaticResource BooleanToColorConverter}}"
+        Command="{Binding PressKeyCommand}"
+        Margin="1"
+        WidthRequest="{Binding Lengt_Modifier}"
+        HeightRequest="50"
+        CornerRadius="10"
+        Scale="{Binding IsPressed, Converter={StaticResource BooleanToScaleConverter}}"
+        x:Name="keyButton">
+    </Button>
+
+    <!--Binding IsFocused, Converter={StaticResource BooleanToScaleConverter}, ConverterParameter=0.9-->
+
+    <!--<VisualStateManager.VisualStateGroups>
+        
+          <VisualStateGroup>
+              
+              <VisualState Name="Normal">
+                  <VisualState.Setters>
+                      <Setter Property="Scale" Value="0.9"/>
+                      <Setter Property="BackgroundColor" Value="Grey"/>
+                  </VisualState.Setters>
+              </VisualState>
+              
+              <VisualState Name="Focused">
+                   <VisualState.Setters>
+                       <Setter Property="Scale" Value="0.5"/>
+                       <Setter Property="BackgroundColor" Value="DarkGray"/>
+                </VisualState.Setters>
+               </VisualState>
+              
+               --><!--<VisualState Name="Pressed">
+                   <VisualState.Setters>
+                       <Setter Property="Scale" Value="0.8"/>
+                       <Setter Property="BackgroundColor" Value="Black"/>
+                   </VisualState.Setters>
+               </VisualState>--><!--
+              
+          </VisualStateGroup>
+        
+    </VisualStateManager.VisualStateGroups>-->
+    
+</ContentView>
